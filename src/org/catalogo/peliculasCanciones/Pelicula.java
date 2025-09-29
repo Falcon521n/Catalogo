@@ -22,7 +22,7 @@ public class Pelicula{
         return id;
     }
 
-    public void setid(){
+    public void setid(int id){
         this.id=id;
     }
 
@@ -30,7 +30,7 @@ public class Pelicula{
         return nombre;
     }
 
-    public void setnombre(){
+    public void setnombre(String nombre){
         this.nombre=nombre;
     }
 
@@ -38,7 +38,7 @@ public class Pelicula{
         return año;
     }
 
-    public String setaño(){
+    public String setaño(String año){
         this.año=año;
     }
 
@@ -46,7 +46,7 @@ public class Pelicula{
         return calificacion;
     }
 
-    public String setcalificacion(){
+    public String setcalificacion(String calificacion){
         this.calificacion=calificacion;
     }
 
@@ -54,7 +54,7 @@ public class Pelicula{
         return notas;
     }
 
-    public String setnotas(){
+    public String setnotas(String notas){
         this.notas=notas;
     }
 
@@ -75,7 +75,7 @@ public class Pelicula{
     public void buscarpelicula(String nombre){
         for (Pelicula c: ListaPelicula) {
             if(solicitudP == nombre){
-                
+
             }
         }
     }
