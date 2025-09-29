@@ -1,0 +1,71 @@
+package.src.org.catalogo.peliculasCanciones
+
+import java.util.ArrayList;
+
+public class Pelicula{
+    private int id;
+    private String nombre;
+    privte String año;
+    private String calificacion;
+    private String notas;
+
+    public Pelicula(){
+
+    }
+
+    public Pelicula(int id, String nombre, String año, String calificacion, String notas){
+        this.id=id;
+        this.nombre=nombre;
+        this.año=año;
+        this.calificacion=calificacion;
+        this.notas=notas;
+    }
+
+    public int getid(){
+        return id;
+    }
+
+    public void setid(){
+        this.id=id;
+    }
+
+    public String getnombre(){
+        return nombre;
+    }
+
+    public void setnombre(){
+        this.nombre=nombre;
+    }
+
+    public String getaño(){
+        return año;
+    }
+
+    public String setaño(){
+        this.año=año;
+    }
+
+    public String getcalificacion(){
+        return calificacion;
+    }
+
+    public String setcalificacion(){
+        this,calificacion=calificacion;
+    }
+
+    public String getnotas(){
+        return notas;
+    }
+
+    public String setnotas(){
+        this.notas=notas;
+    }
+
+    private ArrayList<Pelicula> ListaPelicula;
+
+    public Pelicula(){
+        ListaPelicula= new ArrayList<>();
+    }
+
+    public void agrearPelicula(pelicula c)
+}
